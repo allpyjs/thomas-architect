@@ -39,18 +39,12 @@ export function Footer() {
           </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-navy-800">
-              Firm
+              Contact
             </p>
             <ul className="mt-4 space-y-2 text-sm text-slate-600">
-              <li>United States</li>
               <li>
-                <a href="tel:+15555550100" className="hover:text-navy-900">
-                  +1 (555) 555-0100
-                </a>
-              </li>
-              <li>
-                <a href="mailto:tm@michaelthomasarchitect.com" className="hover:text-navy-900">
-                  tm@michaelthomasarchitect.com
+                <a href="mailto:thomas@michaelthomasarchitect.com" className="hover:text-navy-900">
+                  thomas@michaelthomasarchitect.com
                 </a>
               </li>
             </ul>

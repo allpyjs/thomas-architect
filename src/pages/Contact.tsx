@@ -49,21 +49,13 @@ export function Contact() {
           <h2 className="font-display text-xl font-semibold text-navy-950">Studio</h2>
           <dl className="mt-6 space-y-4 text-sm text-slate-600">
             <div>
-              <dt className="font-semibold text-navy-900">Phone</dt>
-              <dd className="mt-1">
-                <a href="tel:+15555550100" className="hover:text-navy-800 hover:underline">
-                  +1 (555) 555-0100
-                </a>
-              </dd>
-            </div>
-            <div>
               <dt className="font-semibold text-navy-900">Email</dt>
               <dd className="mt-1">
                 <a
-                  href="mailto:tm@michaelthomasarchitect.com"
+                  href="mailto:thomas@michaelthomasarchitect.com"
                   className="hover:text-navy-800 hover:underline"
                 >
-                  tm@michaelthomasarchitect.com
+                  thomas@michaelthomasarchitect.com
                 </a>
               </dd>
             </div>
@@ -87,8 +79,8 @@ export function Contact() {
                 We have received your message. In a live deployment, this would trigger a
                 notification to the firm. For now, you can continue exploring the site or send a
                 direct email to{" "}
-                <a href="mailto:tm@michaelthomasarchitect.com" className="font-medium text-navy-800 underline">
-                  tm@michaelthomasarchitect.com
+                <a href="mailto:thomas@michaelthomasarchitect.com" className="font-medium text-navy-800 underline">
+                  thomas@michaelthomasarchitect.com
                 </a>
                 .
               </p>

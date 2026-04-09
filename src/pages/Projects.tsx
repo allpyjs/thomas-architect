@@ -1,9 +1,17 @@
 import { ProjectDisciplineTags } from "@/components/ProjectDisciplineTags";
 import { projects } from "@/data/projects";
+import { Helmet } from "react-helmet-async";
 
 export function Projects() {
   return (
     <div className="bg-white">
+      <Helmet>
+        <title>Projects | Michael Thomas Architect</title>
+        <meta
+          name="description"
+          content="View selected work by Michael Thomas Architect, including residential architecture, renovations, and integrated engineering-led project delivery."
+        />
+      </Helmet>
       <div className="border-b border-slate-200 bg-slate-50 py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-navy-700">

@@ -1,4 +1,5 @@
 import { FormEvent, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 type FormState = {
   name: string;
@@ -29,6 +30,13 @@ export function Contact() {
 
   return (
     <div className="bg-white">
+      <Helmet>
+        <title>Contact | Michael Thomas Architect</title>
+        <meta
+          name="description"
+          content="Contact Michael Thomas Architect to discuss your project scope, timeline, and architecture or engineering service needs."
+        />
+      </Helmet>
       <div className="border-b border-slate-200 bg-slate-50 py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-navy-700">

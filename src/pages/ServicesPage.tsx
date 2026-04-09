@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { ServicesSection } from "@/components/ServicesSection";
 
 export function ServicesPage() {
   return (
     <div className="bg-white">
+      <Helmet>
+        <title>Services | Michael Thomas Architect</title>
+        <meta
+          name="description"
+          content="Explore services from Michael Thomas Architect, including architectural design, structural engineering, MEP coordination, and HVAC systems integration."
+        />
+      </Helmet>
       <div className="border-b border-slate-200 bg-navy-950 py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">

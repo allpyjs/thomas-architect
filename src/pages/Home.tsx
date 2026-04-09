@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { ProjectDisciplineTags } from "@/components/ProjectDisciplineTags";
 import { ServicesSection } from "@/components/ServicesSection";
 import { projects } from "@/data/projects";
@@ -11,10 +12,17 @@ export function Home() {
 
   return (
     <>
+      <Helmet>
+        <title>Michael Thomas Architect | Architecture & Engineering Services</title>
+        <meta
+          name="description"
+          content="Official website of Michael Thomas Architect. Explore architecture, structural engineering, MEP coordination, and HVAC design services across the United States."
+        />
+      </Helmet>
       <section className="relative min-h-[85vh] overflow-hidden bg-navy-950">
         <img
           src={heroImage}
-          alt=""
+          alt="Contemporary residential architecture by Michael Thomas Architect"
           className="absolute inset-0 h-full w-full object-cover"
           fetchPriority="high"
         />
@@ -24,7 +32,7 @@ export function Home() {
             Licensed architecture & engineering · USA
           </p>
           <h1 className="mt-6 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Buildings engineered for clarity, performance, and permanence.
+            Michael Thomas Architect: buildings engineered for clarity, performance, and permanence.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
             Michael Thomas Architect partners with owners, institutions, and developers to deliver

@@ -43,8 +43,13 @@ export function Footer() {
             </p>
             <ul className="mt-4 space-y-2 text-sm text-slate-600">
               <li>
-                <a href="mailto:thomas@michaelthomasarchitect.com" className="hover:text-navy-900">
-                  thomas@michaelthomasarchitect.com
+                <a href="mailto:tm@michaelthomasarchitect.com" className="hover:text-navy-900">
+                  tm@michaelthomasarchitect.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:9179335767" className="hover:text-navy-900">
+                  917 933 5767
                 </a>
               </li>
             </ul>

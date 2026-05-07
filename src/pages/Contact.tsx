@@ -70,8 +70,8 @@ export function Contact() {
             <div>
               <dt className="font-semibold text-navy-900">Phone</dt>
               <dd className="mt-1">
-                <a href="tel:9179335767" className="hover:text-navy-800 hover:underline">
-                  917 933 5767
+                <a href="tel:2137970316" className="hover:text-navy-800 hover:underline">
+                  (213) 797-0316
                 </a>
               </dd>
             </div>
